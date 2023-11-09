@@ -1,0 +1,21 @@
+@import "colors";
+
+.highlight {
+    width: 100%;
+    background-color: $dark;
+    color: white;
+    padding: 2rem;
+
+
+    >h1 {
+        text-align: center;
+        font: 400 3rem "Roboto";
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .highlight>h1 {
+        text-align: center;
+        font: 400 1.5rem "Roboto";
+    }
+}

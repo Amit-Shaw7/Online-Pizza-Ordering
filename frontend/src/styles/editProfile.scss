@@ -1,0 +1,105 @@
+@import "colors";
+
+.edit-profile {
+    background-color: $bgYellow;
+    height: 100vh;
+    width: 100%;
+
+    >main {
+        height: 100%;
+        background-color: white;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        // padding: 2rem 4rem;
+        align-items: center;
+        justify-content: center;
+        max-width: 900px;
+
+        >form {
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+            background-color: rgb(246, 246, 246);
+            border-radius: 10px;
+            padding: 4rem;
+
+
+            >div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .upload {
+                    position: absolute;
+                    top: 20px;
+                    left: 100%;
+                    font-size: 1.5rem;
+                    padding: 0.5rem;
+                    background-color: $yellow;
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    outline: none;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: $bgYellow;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                >img {
+                    height: 13rem;
+                    width: 13rem;
+                    border-radius: 50%;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.146);
+                    object-fit: cover;
+                }
+
+                >label {
+                    margin-right: 10px;
+                    color: $yellow;
+                }
+
+                >input {
+                    border: none;
+                    outline-color: $yellow;
+                    padding: 0.5rem 1rem;
+                }
+
+            }
+
+            >button {
+                width: 100%;
+                padding: 0.8rem 0rem;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                background-color: $yellow;
+                transition: all 0.3s ease-in-out;
+                color: white;
+
+                &:hover {
+                    transition: all 0.3s ease-in-out;
+                    background-color: $bgYellow;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .edit-profile>main>form {
+        padding: 1rem;
+    }
+}

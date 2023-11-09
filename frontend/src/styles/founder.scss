@@ -1,0 +1,43 @@
+@import "colors";
+
+.founder{
+    width: 100%;
+    height:  max-content;
+    background-color: $yellow;
+    overflow-x: hidden;
+    color: white;
+    padding: 5px 0px;
+
+    >div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+
+        >img{
+            // border: 2px solid white;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        >h3{
+            font-size: 1.3rem;
+            padding: 2rem 0rem 1rem 0rem;
+        }
+        >p{
+            font-size: 1rem;
+            line-height: 200%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .founder{
+        >div{
+            width: 70%;
+        }
+    }
+}

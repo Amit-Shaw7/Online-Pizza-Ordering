@@ -1,0 +1,128 @@
+@import "colors";
+
+.about {
+    width: 100%;
+    background-color: $bgYellow;
+
+    >main {
+        background-color: white;
+        margin: auto;
+        height: 100%;
+
+        >h1 {
+            font: 500 3rem "Roboto";
+            color: white;
+            padding: 1rem 2rem;
+            text-transform: uppercase;
+            background-color: $dark;
+            text-align: center;
+
+        }
+
+        >article {
+            margin: 2rem 0;
+
+            >h4 {
+                font: 100 2rem "Roboto";
+                text-transform: uppercase;
+                text-align: center;
+                padding: 2rem;
+
+            }
+
+            >p {
+                letter-spacing: 3px;
+                word-spacing: 3px;
+                padding: 2rem;
+                text-align: center;
+                margin: auto;
+                width: 50%;
+                line-height: 2rem;
+            }
+
+            >a {
+                background-color: $yellow;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 2.5rem;
+                height: 2.5rem;
+                color: white;
+                font-size: 1.5rem;
+                transition: all 0.3s ease-in-out;
+                margin: auto;
+
+                &:hover {
+                    background-color: $yellowDark;
+                    scale: 1.1;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+
+        >div {
+            background-color: $dark;
+            padding: 2rem;
+            color: white;
+
+            >h2 {
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            >article {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                >div {
+                    margin: 2rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    >img {
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    >h3 {
+                        margin: 1rem;
+                    }
+                }
+
+                >p {
+                    margin: 0 1rem;
+                    width: 50%;
+                    letter-spacing: 2px;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .about > main {
+        >h1{
+            font: 300 2.5rem "Roboto";
+        }
+        > article > p {
+            width: 90%;
+        }
+
+        > div > article{
+            flex-direction: column;
+
+            >p{
+                width: 90%;
+                text-align: center;
+                line-height: 2rem;
+            }
+        }
+    }
+}

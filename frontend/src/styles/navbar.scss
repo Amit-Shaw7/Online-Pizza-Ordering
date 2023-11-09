@@ -1,0 +1,100 @@
+@import "colors.scss";
+
+nav {
+    height: 60px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #f3f3f3;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Urbanist', sans-serif;
+
+    >div {
+        display: flex;
+        align-items: center;
+
+        >a {
+            >img {
+                height: 4rem;
+                width: 4rem;
+                object-fit: contain;
+            }
+        }
+
+        a {
+            margin: 0 2rem;
+            color: $dark;
+            transition: color 0.3s;
+
+            &:hover {
+                color: $yellowDark;
+
+            }
+
+            >svg {
+                color: $yellow;
+                transition: inherit;
+                font-size: 1.5rem;
+
+                &:hover {
+                    color: $yellowDark;
+                }
+            }
+        }
+    }
+}
+
+.cartValue {
+    background-color: $yellow;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    padding: 2px;
+}
+
+.cartValueCont {
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 1rem;
+
+        >div {
+            >svg {
+                font-size: 2rem;
+            }
+
+            >a {
+                margin: 0px 0.5rem;
+                font-size: 0.8rem;
+
+                >svg {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .cartValue {
+        font-size: 0.7rem;
+        width: 15px;
+        height: 15px;
+        top: -15px;
+        left: 1px;
+        font-weight: bolder;
+    }
+}

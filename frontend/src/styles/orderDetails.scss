@@ -1,0 +1,157 @@
+@import "colors";
+
+.hr {
+    border: 1px dashed rgb(253, 241, 225);
+
+}
+
+
+.order-details {
+    h1 {
+        text-align: center;
+        font: 100 3rem "Roboto";
+        text-transform: uppercase;
+        margin: 2rem 0px;
+    }
+    
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 1.8rem;
+        text-decoration: underline;
+    }
+
+    background-color: $bgYellow;
+    width: 100%;
+
+    >main {
+        background-color: white;
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem;
+        // overflow-x: auto;
+
+        >aside {
+
+            height: 200px;
+            width: 100%;
+            // margin-bottom: 1rem;
+
+            >div {
+                height: 90%;
+                padding: 10px;
+                // margin-top: 1rem;
+                gap: 20px;
+                text-align: center;
+                // background-color: rgb(246, 246, 246);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            >span {
+                line-height: 1.1rem;
+            }
+        }
+
+        >div {
+            margin: 2rem 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            >p {
+                font-weight: 200;
+                white-space: nowrap;
+                letter-spacing: 2px;
+                margin: 2rem;
+                display: flex;
+
+                // flex-direction: column;
+                // width: 60%;
+                height: auto;
+
+                >b {
+                    margin-right: 5px;
+                }
+
+                >span {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+
+        >article {
+            >h1 {
+                margin: 2rem 0;
+            }
+
+            >div {
+                >h4 {
+                    font-weight: 200;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}
+
+.eachOrder {
+    background-color: rgb(246, 246, 246);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.summary {
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: $yellow;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width : 600px) {
+    .order-details>main {
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+        }
+        
+
+    }
+
+    >div {
+        // >h1 {
+        //     font-size: 1.5rem;
+        // }
+
+        >p {
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+            margin: 2rem 0;
+        }
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .order-details>main {
+        padding: 1.5rem;
+    }
+}

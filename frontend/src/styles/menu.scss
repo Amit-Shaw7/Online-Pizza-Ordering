@@ -1,0 +1,101 @@
+@import "colors";
+
+#menu{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    padding: 4rem;
+
+    >h1{
+        font-size: 3rem;
+        text-align: center;
+        padding: 2rem;
+        color: $h1;
+        text-transform: uppercase;
+    }
+
+    >div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+    }
+}
+
+.menu-card{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.495);
+    width: 400px;
+    transition: all 0.3s ease-in-out;
+    // height: 70vh;
+    
+    &:hover{
+        transition: all 0.3s ease-in-out;
+        scale: 1.1;
+    }
+
+    > div{
+        border-radius: 20px 20px 0 0;
+        background-color: $yellow;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        color: white;
+        height: 4rem;
+    }
+
+    >main{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        // background-color: red;
+
+        > img{
+            height: 13rem;
+            width: 100%;
+            object-fit: contain;
+        }
+        
+        >h5{
+            font-size: 1.8rem;
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+        }
+        >p{
+            // background-color: red;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 1rem 0;
+        }
+        > button{
+            background-color: $yellow;
+            padding: 1rem 2rem;
+            width: 90%;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            transition: all 0.3s ease-in-out;
+        
+            &:hover {
+                background-color: $yellowDark;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #menu{
+        padding: 4rem 1rem;
+    }
+    .menu-card{
+        width: 300px;
+    }
+}

@@ -1,0 +1,123 @@
+@import "colors";
+
+.contact {
+    width: 100%;
+    background-image: $gradient;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px 0 0 10px;
+        padding: 2rem;
+        width: 40%;
+        height: 80%;
+        justify-content: center;
+
+        >h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            font-family: "Roboto";
+            margin: 2rem;
+        }
+
+        >input,
+        textarea,
+        button {
+            padding: 1rem;
+            outline: none;
+            border: 1px solid rgb(202, 202, 202);
+            margin: 0.5rem;
+            width: 60%;
+            border-radius: 5px;
+            resize: none;
+        }
+        
+
+        >button {
+            background-color: $yellow;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease-in-out;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+
+            &:hover {
+                transition: all 0.3s ease-in-out;
+                background-color: $yellowDark;
+            }
+        }
+    }
+
+    .curvedPart {
+        width: 200px;
+        height: 80%;
+        background-color: white;
+        border-radius: 0 200px 200px 0;
+        position: relative;
+
+        >div {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 50%;
+            transform: translate(50%, -50%);
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+
+            >img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .curvedPart {
+        display: none;
+    }
+
+    .contact>form {
+        border-radius: 10px;
+        width: 50%;
+
+        input,
+        textarea,
+        button {
+            width: 80%;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact>form {
+        width: 70%;
+        
+        input,
+        textarea,
+        button {
+            width: 80%;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .contact>form {
+        width: 80%;
+
+        >h2{
+            margin: 2rem auto;
+        }
+        input,
+        textarea,
+        button {
+            width: 95%;
+        }
+    }
+}
