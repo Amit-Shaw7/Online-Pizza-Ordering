@@ -42,6 +42,7 @@ const CartItem = ({ item }) => {
 
   const fetchItemsDetails = async () => {
     const product = await dispatch(fetchCurrentProduct(item?.productId, "cart"));
+    console.log(product);
     setProduct(product);
   }
 

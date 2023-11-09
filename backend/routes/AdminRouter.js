@@ -14,7 +14,7 @@ AdminRouter.get("/order/:id", verifyToken, isAdmin, changeOrderStatus);
 AdminRouter.post('/product/add', verifyToken, isAdmin, addProduct);
 AdminRouter.get('/product/all', verifyToken, isAdmin, fetchAllProucts);
 AdminRouter.put('/product/update/:id', verifyToken, isAdmin, updateProduct);
-AdminRouter.get('/product/find/:id', verifyToken, isAdmin, fetchProductById);
+AdminRouter.get('/product/find/:id', verifyToken, fetchProductById);
 AdminRouter.delete('/product/delete/:id', verifyToken, isAdmin, deleteProductById);
 
 export default AdminRouter;

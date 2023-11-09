@@ -146,8 +146,6 @@ export const fetchAllProucts = asyncError(async (req, res, next) => {
 });
 
 export const fetchProductById = asyncError(async (req, res, next) => {
-    const user = await UserModel.findById(req.user.id);
-    if (user.role !== "admin") return next(new ErrorHandler("Admin credentials required", 401));
 
     const product = await ProductModel.findById(req.params.id);
     if (!product) return next(new ErrorHandler("Cannot fetch product ", 404));
