@@ -15,9 +15,7 @@ const app = express();
 
 
 
-dotenv.config({
-    path: "./config/config.env"
-});
+dotenv.config();
 
 // dotenv.config();
 
