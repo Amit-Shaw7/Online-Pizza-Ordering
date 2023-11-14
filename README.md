@@ -45,7 +45,7 @@
 
 ## Preview
 
-![screenshot](https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961758/finalPizzaShowcase_o9dpp2.mp4)
+![screenshot]("./preview.mp4")
 
 ## Screenshots
 
