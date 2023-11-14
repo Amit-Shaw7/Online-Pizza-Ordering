@@ -45,7 +45,7 @@
 
 ## Preview
 
-<video src="./preview.mp4" autoplay muted loop />
+<video height="400px" src="./preview.mp4" autoplay muted loop />
 
 
 ## Screenshots
