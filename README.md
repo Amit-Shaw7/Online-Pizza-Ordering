@@ -45,7 +45,7 @@
 
 ## Preview
 
-![screenshot]("preview.mp4")
+![screenshot]("https://github.com/Amit-Shaw7/Online-Pizza-Ordering/blob/main/preview.mp4")
 
 ## Screenshots
 
