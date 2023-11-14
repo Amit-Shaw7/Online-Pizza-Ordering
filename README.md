@@ -45,7 +45,7 @@
 
 ## Preview
 
-<video height="400px" src="https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961775/fitthubFinalShowcase_d9z3wg.mp4" autoplay muted loop />
+<video height="400px" src="https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961775/fitthubFinalShowcase_d9z3wg.mp4" autoplay muted loop></video>
 
 
 ## Screenshots
