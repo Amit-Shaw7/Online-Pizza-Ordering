@@ -45,7 +45,7 @@
 
 ## Preview
 
-![screenshot]("./preview.mp4")
+![screenshot]("preview.mp4")
 
 ## Screenshots
 
