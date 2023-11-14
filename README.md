@@ -45,7 +45,8 @@
 
 ## Preview
 
-![screenshot]("https://github.com/Amit-Shaw7/Online-Pizza-Ordering/blob/main/preview.mp4")
+<video src="./preview.mp4" autoplay muted loop />
+
 
 ## Screenshots
 
