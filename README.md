@@ -45,17 +45,34 @@
 
 ## Preview
 
-![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1693977564/managetScreenRecordingFinal_qljspy.gif)
+![screenshot](https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961758/finalPizzaShowcase_o9dpp2.mp4)
 
 ## Screenshots
 
-![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1693944696/LoginPageScreenshot_zrsyzm.png)
+![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1699962803/Screenshot_287_morzla.png)
 
-![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1693944698/AddingTaskScreenshot_ly48ps.png)
+<hr/>
 
-![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1693945359/HomepageScreenshot_aou1wn.jpg)
+![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1699962799/Screenshot_296_xtq3rq.png)
 
-![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1693945222/lightmodeScreenshot_a2fvdt.jpg)
+<hr/>
+
+![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1699962796/Screenshot_297_pzq1dh.png)
+
+<hr/>
+
+![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1699962796/Screenshot_298_wkeq9f.png)
+
+<hr/>
+
+![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1699962798/Screenshot_303_cprueq.png)
+
+<hr/>
+
+![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1699962798/Screenshot_302_lhku4k.png)
+
+<hr/>
+
 
 ## Key Features
 
