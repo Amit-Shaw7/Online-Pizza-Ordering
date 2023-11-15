@@ -45,10 +45,7 @@
 
 ## Preview
 
-<!-- <iframe src="https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961775/fitthubFinalShowcase_d9z3wg.mp4"></iframe> -->
-<video width="500" height="400" controls>
-  <source src="https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961758/finalPizzaShowcase_o9dpp2.mp4" type="video/mp4">
-</video>
+https://github.com/Amit-Shaw7/Online-Pizza-Ordering/assets/98527560/bbc43404-7556-4b84-8e64-f15e9e95ec7e
 
 
 ## Screenshots
@@ -76,7 +73,6 @@
 ![screenshot](https://res.cloudinary.com/amitkumarshaw/image/upload/v1699962798/Screenshot_302_lhku4k.png)
 
 <hr/>
-
 
 ## Key Features
 
