@@ -45,7 +45,10 @@
 
 ## Preview
 
-<iframe src="https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961775/fitthubFinalShowcase_d9z3wg.mp4"></iframe>
+<!-- <iframe src="https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961775/fitthubFinalShowcase_d9z3wg.mp4"></iframe> -->
+<video width="100%" height="400" controls>
+  <source src="https://res.cloudinary.com/amitkumarshaw/video/upload/v1699961758/finalPizzaShowcase_o9dpp2.mp4" type="video/mp4">
+</video>
 
 
 ## Screenshots
